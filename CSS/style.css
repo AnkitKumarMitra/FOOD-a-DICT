@@ -1,0 +1,205 @@
+body {
+  margin: 0px;
+  background-color: rgb(238, 238, 238);
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  width: 99%;
+  height: 64px;
+  padding: 5px 10px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.home {
+  font-size: bolder;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.home a {
+  text-decoration: none;
+  color: white;
+}
+
+.options {
+  display: flex;
+  width: 250px;
+  margin-right: 40px;
+  justify-content: space-between;
+  font-size: bolder;
+}
+
+.nav-a {
+  text-decoration: none;
+  color: white;
+}
+
+
+/* Dropdown 1 */
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.op1:hover .dropdown-content {
+  display: block;
+}
+
+.op1:hover .dropbtn {
+  text-shadow: 2px 2px black;
+}
+
+/* Dropdown 2 */
+.dropbtn2 {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content2 a:hover {
+  background-color: #ddd;
+}
+
+.op2:hover .dropdown-content2 {
+  display: block;
+}
+
+.op2:hover .dropbtn2 {
+  text-shadow: 2px 2px black;
+}
+
+/* container-1 */
+.container-1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 87%;
+  background-color: rgb(253, 249, 243);
+  border-radius: 25px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.foodname {
+  padding: 20px;
+  font-weight: bolder;
+  font-size: 70px;
+}
+
+.line1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foodimg {
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 100000px;
+  align-items: center;
+}
+
+.fooddes {
+  font-size: 25px;
+  padding: 20px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+}
+
+/* Table */
+
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 20px;
+}
+
+table {
+  height: 300px;
+  width: 300px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* container-3 */
+.container-3 {
+  padding: 40px;
+}
+
+.recipediv {
+  padding: 25px;
+  font-size: 50px;
+}
+
+.recipep {
+  padding: 25px;
+  font-size: 25px;
+}
+
+/* container-4 */
+.container-4 {
+  padding: 30px;
+}
+
+.hist {
+  font-size: 50px;
+}
+
+.histdes {
+  font-size: 25px;
+}

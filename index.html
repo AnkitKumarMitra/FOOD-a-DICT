@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOD-a-DICT</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            
+        </div>
+        <div class="options">
+            <div class="home"><a href="index.html">Home</a></div>
+            <div class="op1">
+                
+                <button class="dropbtn">About Us</button>
+                <div class="dropdown-content">
+                    <a href="#">Ankit kr Mitra</a>
+                    <a href="#">Reeyansh Sijaria</a>
+                    <a href="#">Ishan Tiwari</a>
+                </div>
+            </div>
+            <div class="op2">
+                <button class="dropbtn2">Contact</button>
+                <div class="dropdown-content2">
+                    <a href="#">E22BCAU0002</a>
+                    <a href="#">E22BCAU0001</a>
+                    <a href="#">E22BCAU0007</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-1">
+        <div class="name">FOOD-a-DICT</div>
+        <div class="search">
+            <div class="search-input">
+                <input type="text" class="inp" id="search-item" placeholder="Search" onkeyup="search()" onclick="show()">
+                <div class="product-list" id="product-list">
+                        <li><a href="Food pages/masala dosa.html">Masala Dosa</a></li>
+                        <li><a href="Food pages/dal makhni.html">Dal Makhani</a></li>
+                        <li><a href="Food pages/chole.html">Chole Masala</a></li>
+                        <li><a href="Food pages/pulao.html">Veg Pulao</a></li>
+                        <li><a href="Food pages/aaloo puri.html">Aloo Puri</a></li>
+                        <li><a href="Food pages/malai kofta.html">Malai Kofta</a></li>
+                        <li><a href="Food pages/kashmiri dum aloo.html">Kashmiri Dum Aloo</a></li>
+                        <li><a href="Food pages/rajma.html">Rajma</a></li>
+                        <li><a href="Food pages/hara bhara kabab.html">Hara Bhara Kebab</a></li>
+                        <li><a href="Food pages/chole.html">Chole Bhature</a></li>
+                        <li><a href="Food pages/Butter chicken.html">Butter Chicken</a></li>
+                        <li><a href="Food pages/Chicken Tikka Masala.html">Chicken Tikka Masala</a></li>
+                        <li><a href="Food pages/Creamy Chicken Enchilada Soup.html">Creamy Chicken Enchilada Soup</a></li>
+                        <li><a href="Food pages/Paneer Butter Masala.html">Panner Butter Masala</a></li>
+                        <li><a href="Food pages/Paneer Chettinad Curry.html">Panner Chettinad Curry</a></li>
+                        <li><a href="Food pages/Paneer Chingari.html">Paneer Chingari</a></li>
+                        <li><a href="Food pages/Pepperoni Pizza.html">Heart-Shaped Pepperoni Pizza</a></li>
+                        <li><a href="Food pages/Chicken Vesuvio.html">Chicken Vesuvio</a></li>
+                        <li><a href="Food pages/Taquitos de Pollo (Chicken Taquitos).html">Taquitos de Pollo (Chicken Taquitos)</a></li>
+                        <li><a href="Food pages/Chicken and Broccoli Pasta.html">Chicken and Broccoli Pasta</a></li>
+                        <li><a href="Food pages/Pork and Chive Dumplings.html">Pork and Chive Dumplings</a></li>
+                        <li><a href="Food pages/Beef Stew.html">Beef Stew</a></li>
+                        <li><a href="Food pages/Lemon Pepper Chicken Breasts.html">Lemon Pepper Chicken Breasts</a></li>
+                        <li><a href="Food pages/Lobster Bisque.html">Lobster Bisque</a></li>
+                        <li><a href="Food pages/Turkey Tenderloin.html">Turkey Tenderloin</a></li>
+                        <li><a href="Food pages/Instant Pot Pernil (Roast Pork).html">Instant Pot Pernil (Roast Pork)</a></li>
+                        <li><a href="Food pages/Chopped Cheese.html">Chopped Cheese</a></li>
+                        <li><a href="Food pages/Mercimek Çorbası (Turkish Lentil Soup).html">Mercimek Çorbasl (Turkish Lentil Soup)</a></li>
+                        <li><a href="Food pages/Instant Pot Taiwanese Beef Noodle Soup.html">Instant Pot Taiwanese Beef Noodle Soup</a></li>
+                        <li><a href="Food pages/Bengali Sponge Rosogulla.html">Rosogulla</a></li>
+                        <li><a href="Food pages/Fruit Cream.html">Fruit Cream</a></li>
+                        <li><a href="Food pages/Rice Kheer.html">Rice Kheer</a></li>
+                </div>
+                <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+        </div>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="images/slideimg1.jpeg" class="slider-img">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/slideimg2.png" class="slider-img">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/slideimg3.jpg" class="slider-img">
+            </div>
+        </div>
+        <br>
+    </div>
+    <div class="container2img">
+        <div class="container-2">
+            <div class="filter">
+                <span class="filtertext"><i class="fa-solid fa-filter"></i></span><br><br>
+                <div id="myBtnContainer">
+                    <button class="btn" onclick="filterSelection('all')"> Show all</button>
+                    <button class="btn" onclick="filterSelection('veg')"> Veg</button>
+                    <button class="btn" onclick="filterSelection('non')"> Non-Veg</button>
+                    <button class="btn" onclick="filterSelection('des')"> Dessert</button>
+                </div>
+            </div>
+            <div class="card veg" style="width: 18rem;">
+                <a href="Food pages/masala dosa.html">
+                    <img class="card-img-top" src="images/Food/masala dosa.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Masala Dosa</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card non" style="width: 18rem;">
+                <a href="Food pages/Butter chicken.html">
+                    <img class="card-img-top" src="images/Food/Butter-Chicken.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Butter Chicken</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card veg" style="width: 18rem;">
+                <a href="Food pages/dal makhni.html">
+                    <img class="card-img-top" src="images/Food/dal-makhani.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Dal Makhani</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card des" style="width: 18rem;">
+                <a href="Food pages/Bengali Sponge Rosogulla.html">
+                    <img class="card-img-top" src="images/Food/Rosogulla.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Rosogulla</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card non" style="width: 18rem;">
+                <a href="Food pages/Chicken Tikka Masala.html">
+                    <img class="card-img-top" src="images/Food/ChickenTikkaMasala.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Chicken Tikka Masala</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card veg" style="width: 18rem;">
+                <a href="Food pages/chole.html">
+                    <img class="card-img-top" src="images/Food/pindi-chana-masala.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Chole Masala</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card non" style="width: 18rem;">
+                <a href="Food pages/Creamy Chicken Enchilada Soup.html">
+                    <img class="card-img-top" src="images/Food/Enchilada-Soup.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Creamy Chicken Enchilada Soup</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card des" style="width: 18rem;">
+                <a href="Food pages/Fruit Cream.html">
+                    <img class="card-img-top" src="images/Food/Fruit-Cream.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Fruit Cream</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card veg" style="width: 18rem;">
+                <a href="Food pages/pulao.html">
+                    <img class="card-img-top" src="images/Food/pulaoo.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Veg Pulao</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card non" style="width: 18rem;">
+                <a href="Food pages/Pepperoni Pizza.html">
+                    <img class="card-img-top" src="images/Food/Pizza.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Heart-Shaped Pepperoni Pizza</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card des" style="width: 18rem;">
+                <a href="Food pages/Rice Kheer.html">
+                    <img class="card-img-top" src="images/Food/Instant-kheer.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Rice Kheer</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card veg" style="width: 18rem;">
+                <a href="Food pages/aaloo puri.html">
+                    <img class="card-img-top" src="images/Food/aloo-puri.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Aloo Puri</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card non" style="width: 18rem;">
+                <a href="Food pages/Chicken Vesuvio.html">
+                    <img class="card-img-top" src="images/Food/Chicken-Vesuvio.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Chicken Vesuvio</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card veg" style="width: 18rem;">
+                <a href="Food pages/malai kofta.html">
+                    <img class="card-img-top" src="images/Food/malai-kofta.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Malai Kofta</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card non" style="width: 18rem;">
+                <a href="Food pages/Taquitos de Pollo (Chicken Taquitos).html">
+                    <img class="card-img-top" src="images/Food/Tacquitos-de-Pollo.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Taquitos de Pollo (Chicken Taquitos)</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card veg" style="width: 18rem;">
+                <a href="Food pages/kashmiri dum aloo.html">
+                    <img class="card-img-top" src="images/Food/kashmiri-dum-aloo.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Kashmiri Dum Aloo</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card non" style="width: 18rem;">
+                <a href="Food pages/Chicken and Broccoli Pasta.html">
+                    <img class="card-img-top" src="images/Food/Chicken-and-Broccoli-Pasta.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Chicken and Broccoli Pasta</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card veg" style="width: 18rem;">
+                <a href="Food pages/rajma.html">
+                    <img class="card-img-top" src="images/Food/raaajma.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Rajma</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card non" style="width: 18rem;">
+                <a href="Food pages/Lemon Pepper Chicken Breasts.html">
+                    <img class="card-img-top" src="images/Food/Lemon-Pepper-Chicken.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Lemon Pepper Chicken Breasts</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card veg" style="width: 18rem;">
+                <a href="Food pages/hara bhara kabab.html">
+                    <img class="card-img-top" src="images/Food/hara-bhara-kabab.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Hara Bhara Kebab</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card non" style="width: 18rem;">
+                <a href="Food pages/Lobster Bisque.html">
+                    <img class="card-img-top" src="images/Food/Lobster-Bisqu.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Lobster Bisque</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card veg" style="width: 18rem;">
+                <a href="Food pages/chole.html">
+                    <img class="card-img-top" src="images/Food/chole-bhature.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Chole Bhature</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card non" style="width: 18rem;">
+                <a href="Food pages/Turkey Tenderloin.html">
+                    <img class="card-img-top" src="images/Food/Turkey.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Turkey Tenderloin</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card veg" style="width: 18rem;">
+                <a href="Food pages/Paneer Butter Masala.html">
+                    <img class="card-img-top" src="images/Food/butter-paneer.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Paneer Butter Masala</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card non" style="width: 18rem;">
+                <a href="Food pages/Instant Pot Pernil (Roast Pork).html">
+                    <img class="card-img-top" src="images/Food/IP-Pernil.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Instant Pot Pernil (Roast Pork)</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card veg" style="width: 18rem;">
+                <a href="Food pages/Paneer Chettinad Curry.html">
+                    <img class="card-img-top" src="images/Food/Paneer-Chettinad-Curry.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Paneer Chettinad Curry</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card non" style="width: 18rem;">
+                <a href="Food pages/Chopped Cheese.html">
+                    <img class="card-img-top" src="images/Food/Chopped-Cheese.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Chopped Cheese</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card veg" style="width: 18rem;">
+                <a href="Food pages/Paneer Chingari.html">
+                    <img class="card-img-top" src="images/Food/Paneer-Chingari.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Paneer Chingari</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card non" style="width: 18rem;">
+                <a href="Food pages/Mercimek Çorbası (Turkish Lentil Soup).html">
+                    <img class="card-img-top" src="images/Food/Mercimek-Corbasi.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Mercimek Çorbası (Turkish Lentil Soup)</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card non" style="width: 18rem;">
+                <a href="Food pages/Instant Pot Taiwanese Beef Noodle Soup.html">
+                    <img class="card-img-top" src="images/Food/Instant-Pot-Taiwanese-Beef-Noodle.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Instant Pot Taiwanese Beef Noodle Soup</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card non" style="width: 18rem;">
+                <a href="Food pages/Beef Stew.html">
+                    <img class="card-img-top" src="images/Food/beef-stew.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Beef Stew</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card non" style="width: 18rem;">
+                <a href="Food pages/Pork and Chive Dumplings.html">
+                    <img class="card-img-top" src="images/Food/Dumpling-Sauce.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Pork and Chive Dumplings</p>
+                    </div>
+                </a>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="JavaScript/search.js"></script>
+    <script src="JavaScript/script.js"></script>
+</body>
+
+</html>
